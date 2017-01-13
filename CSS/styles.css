@@ -10,3 +10,14 @@
   height: 400px;
   width: auto;
 }
+
+.pic {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.question {
+  float: right;
+  word-wrap: break-word;
+}
