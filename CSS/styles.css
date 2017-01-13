@@ -1,3 +1,6 @@
 .intro {
   text-indent: 3em;
 }
+.result {
+  display: none;
+}
