@@ -1,6 +1,12 @@
 .intro {
   text-indent: 3em;
 }
-.result {
+.result, .design, .c-plus, .ruby, .php, .java{
   display: none;
+}
+
+.result {
+  background-color: red;
+  height: 400px;
+  width: auto;
 }

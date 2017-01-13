@@ -1,8 +1,28 @@
 // Business logic: Backend
-// function design() {
-//   $(".design").show();
-// };
+function design() {
+  $(".survey").fadeOut();
+  $(".result").fadeToggle();
+  $(".design").fadeIn(); }
 
+function cplus() {
+  $(".survey").fadeOut();
+  $(".result").fadeToggle();
+  $(".c-plus").fadeIn(); }
+
+function javar() {
+  $(".survey").fadeOut();
+  $(".result").fadeToggle();
+  $(".java").fadeIn(); }
+
+function ruby() {
+  $(".survey").fadeOut();
+  $(".result").fadeToggle();
+  $(".ruby").fadeIn(); }
+
+function php() {
+  $(".survey").fadeOut();
+  $(".result").fadeToggle();
+  $(".php").fadeIn(); }
 
 
 // User interface: Front end
@@ -16,8 +36,9 @@ $(document).ready(function() {
     var e = parseInt($("input:radio[name=apt]:checked").val());
     var score = (a + b + c + d + e)/5;
     if (score === 0) {
-      $(".result").show();
+      design();
     }
+
     });
   });
   // if (total = 0;) {
