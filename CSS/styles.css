@@ -2,6 +2,10 @@ h5 {
   text-align: center;
 }
 
+.btn {
+  margin-right: 15%;
+  margin-bottom: 4%;
+}
 .intro {
   text-indent: 3em;
 }
@@ -30,6 +34,6 @@ h5 {
   margin-top: 20px;
   margin-left: 20%;
   margin-right: 20%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border-radius: 20px;
 }
