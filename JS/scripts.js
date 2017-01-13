@@ -1,21 +1,12 @@
-// Business logic: Backend
-function caltotal() {
-  var total = 0;
-  $(".quiz:checked").each(function() {
-    total += parseInt($(this).val(), 10);
-  });
-}
-
-
 // User interface: Front end
-// $(document).ready(function() {
-//   $("form").submit(function() {
-//     event.preventDefault();
-//     caltotal();
-//     var total;
-//     console.log(total);
-//   });
+$(document).ready(function() {
+  $("form").submit(function(event) {
+    var a = parseInt($("input:radio[name=actv]:checked").val());
+    console.log(a);
+    event.preventDefault;
+  //   event.preventDefault;
 
+  });
   // });
   // if (total = 0;) {
   //   $(.result).show();
