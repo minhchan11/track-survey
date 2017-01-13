@@ -35,14 +35,25 @@ $(document).ready(function() {
     var d = parseInt($("input:radio[name=skill]:checked").val());
     var e = parseInt($("input:radio[name=apt]:checked").val());
     var score = (a + b + c + d + e)/5;
-    if (score === 0) {
+    if (score >= 0 && score <= 3) {
       design();
-    }
-
+    } else if (score > 3 && score <= 6) {
+      cplus();
+    } else if (score > 6 && score <= 9) {
+      javar();
+    } else if (score > 9 && score <= 12) {
+      ruby();
+    } else if (score > 12 && score <= 15) {
+      php();
+    };
     });
   });
-  // if (total = 0;) {
-  //   $(.result).show();
+
+
+
+
+
+
 
 
 
