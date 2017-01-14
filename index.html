@@ -17,7 +17,7 @@
       <div class="intro">
         <p><strong>Welcome to Epicodus!</strong> We are excited that you are considering to be on the journey with us. At Epicodus - the vocational school for programmer - we train our students in high-demand programming skills, and then help them find full time employment as software developers. Additionally, we place a high value on student life and experience. In order to focus on student learning and interaction, we use a completely ‘flipped’ classroom by "pair programming".</p>
         <div class="random"></div>
-        <br><p>But before we tell you more information about the school, allow us to get to know you by completing these simple questions. These are designed to analyze your skills and personality, subsequently finding out which track at Epicodus is the best for you!</p><br><p><em>Let's get started!</em></p>
+        <br><p>But before we tell you more information about the school, allow us to get to know you by completing these simple questions. These are designed to analyze your skills and personality, subsequently finding out which track at Epicodus is the best for you!</p><br><p><em>Let's get started!</em></p><br>
       </div>
 
       <div class="survey">
@@ -29,7 +29,7 @@
           <div class="col-md-4">
             <img src="img/qn1.png" class="pic" alt="Image of activities" />
           </div>
-          <div class="col-md-4 question">
+          <div class="col-md-5 question">
             <div class="radio">
               <label>
                 <input class="quiz" type="radio" name="actv" value="0">
@@ -55,7 +55,7 @@
               </label>
             </div>
           </div>
-          <div class="col-md-2"></div>
+          <div class="col-md-1"></div>
         </div>
           <!-- Survey question 2-->
           <div class="survey-qn row well">
@@ -102,7 +102,7 @@
           <div class="col-md-5 question">
             <div class="radio">
               <label>
-                <input class="quiz" class="quiz" type="radio" name="thought" value="0">
+                <input class="quiz" type="radio" name="thought" value="0">
                 Innovative, out-of-the-box, novel.
               </label>
             </div>
@@ -180,6 +180,7 @@
               <label>
                 <input class="quiz" type="radio" name="apt" value="5">
                 Recognition: You have potential for advancement and a role in leadership.
+              </label>
             </div>
             <div class="radio">
               <label>
@@ -197,8 +198,8 @@
           <div class="col-md-1"></div>
         </div>
         <!-- Survey End-->
-          <p class="ready">Ready for your track suggestion? Click the button below!</p>
-          <button type="submit" class="btn btn-lg btn-block">Result</button>
+          <p class="ready">Ready for your track suggestion? Click the button below!</p><br>
+          <button type="submit" class="btn btn-lg btn-block" id="show">Result</button>
         </form>
       </div>
 
@@ -257,7 +258,9 @@
             <h3>PHP/Drupal</h3>
             <p>You should definitely try out PHP. PHP is most used in content-heavy websites with relatively little user interaction. The most popular content management systems - Wordpress, Drupal, and Joomla - are all written in PHP, and everything from local restaurants' websites up through large complex government deployments are built with these tools. If you're keen to work for an agency that builds websites for clients, or if you like the idea of building out sites for brands, businesses, and organizations, PHP is a great direction to go. Get started with PHP/Drupal at Epicodus to put your analytical skills to good use!</p>
             </div>
+          </div>
         </div>
+        <button class="btn btn-warning btn-lg" id="refresh">Retake the quiz!</button>
       </div>
     <!-- Survey result end -->
     </div>

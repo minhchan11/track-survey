@@ -47,6 +47,9 @@ $(document).ready(function() {
       php();
     };
     });
+  $("button#refresh").click(function () {
+    location = self.location
+  });
   });
 
 
